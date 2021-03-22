@@ -32,13 +32,14 @@ The query below will find precipitation scores in June:
 ```python
 session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
 ```
+If you would like to view the output of June precipitation statistics, please [click here](https://github.com/Mishkanian/surfs_up/blob/main/Resources/june_prec.png).  
+
 
 The query below will find precipitation scores in December:
 ```python
 session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 ```
-
-[PROJECT IN PROGRESS...]
+If you would like to view the output of December precipitation statistics, please [click here](https://github.com/Mishkanian/surfs_up/blob/main/Resources/december_prec.png).
 
 **Author: Michael Mishkanian**  
 
