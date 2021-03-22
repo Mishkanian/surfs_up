@@ -5,7 +5,7 @@ The purpose of this project is to analyze the temperature trends in Oahu, Hawaii
 
 ## Resources and Software
 
-- Starting Data File: [hawaii.sqlite](https://github.com/Mishkanian/surfs_up/blob/main/hawaii.sqlite)
+- Starting File: [hawaii.sqlite](https://github.com/Mishkanian/surfs_up/blob/main/hawaii.sqlite)
 - Python 3.7.10
 - psycopg2-binary 2.8.6
 - SQLAlchemy 1.4.1
