@@ -12,9 +12,9 @@ The purpose of this project is to analyze the temperature trends in Oahu, Hawaii
 
 ## Results
 
-- 
-- 
-- 
+- The average temperature in Oahu during December is only 3.9°F cooler than June.
+- The lowest temperature during December is 8°F colder than the lowest temperature during June.
+- There are 10.7% less data points in December than June.
 
 Below is a statistical summary for the month of June:  
 ![june_temp](https://github.com/Mishkanian/surfs_up/blob/main/Resources/june_temp.png)
@@ -24,6 +24,10 @@ Below is a statistical summary for the month of December:
 
 ## Summary
 
+It is important to have the most relevant data when conducting analysis on a potential business venture. For this reason, I have performed two additional queries on June and December to obatin more relevant weather data.
+```
+
+```
 
 **Author: Michael Mishkanian**  
 
