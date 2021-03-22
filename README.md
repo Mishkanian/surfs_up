@@ -24,11 +24,18 @@ Below is a statistical summary for the month of December:
 
 ## Summary
 
-Based on the results above, it can be expected that a surf shop in Oahu will have less customers in December than June due to the slight decrease in average daily temperature.
+Based on the results above, it can be expected that a surf shop in Oahu will have less customers in December than in June due to the slight decrease in average daily temperature.
 
-It is important to have the most relevant data when conducting analysis on a potential business venture. For this reason, I have performed two additional queries on June and December to obatin more weather data.
+It is important to have the most relevant results when conducting analysis on a potential business venture. For this reason, I would perform two additional queries on June and December to obatin more weather data about precipitation during those months.
+
+The query below will find precipitation scores in June:
+```python
+session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
 ```
 
+The query below will find precipitation scores in December:
+```python
+session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
 ```
 
 [PROJECT IN PROGRESS...]
